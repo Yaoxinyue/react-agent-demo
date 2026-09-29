@@ -1,0 +1,15 @@
+# ---- 密钥：绝对不能提交 ----
+.env
+
+# ---- 虚拟环境：通配符覆盖 .venv / .venv_react / venv / venv_faker 等常见命名 ----
+.venv*/
+venv*/
+
+# ---- Python 运行产物 ----
+__pycache__/
+*.pyc
+
+# ---- 编辑器与系统文件 ----
+.DS_Store
+.idea/
+.vscode/
